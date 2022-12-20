@@ -1,11 +1,13 @@
 {
+	"name": "linemedia/mvc",
+	"description": "Intial MVC project structure",
+	"require": {
+		"php": ">=7.4",
+		"another-vendor/package": "1.*"
+	},
 	"autoload": {
 		"psr-4": {
 			"MVC\\": "app"
 		}
-	},
-	"require": {
-		"dcblogdev/pdo-wrapper": "^2.0",
-		"rakit/validation": "^1.4"
 	}
 }
